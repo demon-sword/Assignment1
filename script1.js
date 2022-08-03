@@ -1,11 +1,8 @@
-var mainObj=[]
-var completed=[]
+let mainObj=[]
+let completed=[]
 function formSubmit(form) {
-  console.log(document.getElementById("tdetails").value);
-  console.log(document.getElementById("assignee").value);
-  console.log(document.getElementById("dueDate").value);
-  console.log(document.getElementById('table1').value);
-  temp = {'tdetails':document.getElementById("tdetails").value,
+
+  const temp = {'tdetails':document.getElementById("tdetails").value,
           'assignee':document.getElementById("assignee").value,
           'dueDate':document.getElementById("dueDate").value};
   if(temp.tdetails==='')
