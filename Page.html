@@ -3,7 +3,7 @@
     <title>
     TODO Manager        
     </title>
-    <script src="script1.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="script.css">
 </head>
 <body>
@@ -13,7 +13,9 @@
         <label for="tdetails">Task Details:</label>
       <input type="text" id="tdetails" name="tdetails"><br>
       <label for="assignee">Assignee:</label>
-      <input type="text" id="assignee" name="assignee"><br>
+      <select id ="assignee" name = "assignee" onclick="populateDropdown()">
+        <option> Choose a Name</option>
+      </select><br>
       <label for="dueDate">Due Date:</label>
       <input type="date" id="dueDate" name="dueDate"><br>
       <input type="submit" value ="Submit">

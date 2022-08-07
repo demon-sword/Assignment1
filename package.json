@@ -1,0 +1,22 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/demon-sword/Assignment1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demon-sword/Assignment1/issues"
+  },
+  "homepage": "https://github.com/demon-sword/Assignment1#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
